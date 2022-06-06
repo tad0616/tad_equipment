@@ -1,6 +1,6 @@
 <{$toolbar}>
 
-<h2 class="my">可借用設備一覽</h2>
+<h2 class="my"><{$smarty.const._MD_TADEQUIPMENT_LIST_AVAILABLE}></h2>
 <div class="row row-cols-sm-4">
     <{foreach from=$tad_equipment item=equipment}>
         <div class="col-sm-3">
